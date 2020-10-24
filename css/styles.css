@@ -400,68 +400,78 @@ a:focus {
 .media.service-box:hover .pull-left > i {
 }
 
-/*#portfolio {*/
-/*  padding: 100px 0;*/
-/*  background: #FFFFFF;*/
-/*}*/
-/*#portfolio .portfolio-filter {*/
-/*  list-style: none;*/
-/*  padding: 0;*/
-/*  margin: 0 0 50px;*/
-/*  display: inline-block;*/
-/*}*/
-/*#portfolio .portfolio-filter > li {*/
-/*  float: left;*/
-/*  display: block;*/
-/*}*/
-/*#portfolio .portfolio-filter > li a {*/
-/*  display: block;*/
-/*  padding: 7px 15px;*/
-/*  margin:0px 2px;*/
-/*  color: #222222;*/
-/*  position: relative;*/
-/*}*/
-/*#portfolio .portfolio-filter > li a:hover,*/
-/*#portfolio .portfolio-filter > li a.active {*/
-/*  background: #1DC2F8;*/
-/*  color: #FFFFFF;*/
-/*} */
-/*#portfolio .portfolio-items {*/
-/*  margin: -15px;*/
-/*}*/
-/*#portfolio .portfolio-item {*/
-/*  width: 24.9%;*/
-/*  float: left;*/
-/*  padding: 8px;*/
-/*  -webkit-box-sizing: border-box;*/
-/*  -moz-box-sizing: border-box;*/
-/*  -o-box-sizing: border-box;*/
-/*  -ms-box-sizing: border-box;*/
-/*  box-sizing: border-box;*/
-/*}*/
-/*#portfolio .portfolio-item .portfolio-item-inner {*/
-/*  position: relative;*/
-/*}*/
-/*#portfolio .portfolio-item .portfolio-item-inner .portfolio-info {*/
-/*  opacity: 0;*/
-/*  transition: opacity 400ms;*/
-/*  -webkit-transition: opacity 400ms;*/
-/*  position: absolute;*/
-/*  bottom: 0;*/
-/*  left: 0;*/
-/*  right: 0;*/
-/*  text-align: center;*/
-/*  padding: 18px 0 0;*/
-/*  background: rgba(0, 0, 0, 0.5);*/
-/*  color: #fff;*/
-/*  height:100%;*/
-/*}*/
-/*#portfolio .portfolio-item .portfolio-item-inner .portfolio-info h3 {*/
-/*  font-size: 16px;*/
-/*  line-height: 1;*/
-/*  margin: 0;*/
-/*  color: #fff;*/
-/*}*/
+#portfolio {
+  padding: 100px 0;
+  background: #FFFFFF;
+}
+
+#portfolio .portfolio-filter {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 50px;
+  display: inline-block;
+}
+
+#portfolio .portfolio-filter > li {
+  float: left;
+  display: block;
+}
+
+#portfolio .portfolio-filter > li a {
+  display: block;
+  padding: 7px 15px;
+  margin: 0px 2px;
+  color: #222222;
+  position: relative;
+}
+
+#portfolio .portfolio-filter > li a:hover,
+#portfolio .portfolio-filter > li a.active {
+  background: #1DC2F8;
+  color: #FFFFFF;
+}
+
+#portfolio .portfolio-items {
+  margin: -15px;
+}
+
+#portfolio .portfolio-item {
+  width: 24.9%;
+  float: left;
+  padding: 8px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#portfolio .portfolio-item .portfolio-item-inner {
+  position: relative;
+}
+
+#portfolio .portfolio-item .portfolio-item-inner .portfolio-info {
+  opacity: 0;
+  transition: opacity 400ms;
+  -webkit-transition: opacity 400ms;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 18px 0 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  height: 100%;
+}
+
+#portfolio .portfolio-item .portfolio-item-inner .portfolio-info h3 {
+  font-size: 16px;
+  line-height: 1;
+  margin: 0;
+  color: #fff;
+}
+
 /*#portfolio .portfolio-item .portfolio-item-inner .portfolio-info .preview {*/
 /*  width: 36px;*/
 /*  height: 36px;*/
@@ -606,55 +616,64 @@ a:focus {
   background: #fff;
 }
 
-/*#about {*/
-/*  padding: 100px 0;*/
-/*  background: #FBFBFB;*/
-/*  color: #4F4F4F;*/
-/*}*/
-/*#about h2{*/
-/*color: #4F4F4F;*/
-/*}*/
+#about {
+  padding: 100px 0;
+  background: #FBFBFB;
+  color: #4F4F4F;
+}
+
+#about h2 {
+  color: #4F4F4F;
+}
+
 /*.download-now h2{color: #222 !important;}*/
 /*!*Team*! */
-/*#our-team {*/
-/*  padding: 100px 0;*/
-/*}*/
-/*#our-team .team-member {*/
-/*  padding: 0;  */
-/*}*/
-/*#our-team .team-member .team-img {*/
-/*  margin: 0;*/
-/*}*/
-/*#our-team .team-member .team-info {*/
-/*  color: #222222;*/
-/*  padding: 0 0 15px;*/
-/*} */
-/*#our-team .team-member:hover .social-icons > li > a {*/
-/*  color: #FFFFFF;*/
-/*}*/
-/* */
-/*#our-team .social-icons {*/
-/*  list-style: none;*/
-/*  padding: 0;*/
-/*  margin: 0;*/
-/*  -webkit-transition: height 1s;!* For Safari 3.1 to 6.0 *!*/
-/*  transition: height 1s;*/
-/*  padding: 0 0 15px;*/
-/*  display: none;*/
-/*}*/
-/*#our-team .social-icons > li {*/
-/*  display: inline-block;*/
-/*}*/
-/*#our-team .social-icons > li > a {*/
-/*  display: block;*/
-/*  width: 32px;*/
-/*  height: 32px;*/
-/*  line-height: 32px;*/
-/*  text-align: center;*/
-/*  color: #FFFFFF;*/
-/*  background: rgb(29, 194, 248);*/
-/*  border-radius: 3px;*/
-/*}*/
+#our-team {
+  padding: 100px 0;
+}
+
+#our-team .team-member {
+  padding: 0;
+}
+
+#our-team .team-member .team-img {
+  margin: 0;
+}
+
+#our-team .team-member .team-info {
+  color: #222222;
+  padding: 0 0 15px;
+}
+
+#our-team .team-member:hover .social-icons > li > a {
+  color: #FFFFFF;
+}
+
+#our-team .social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  -webkit-transition: height 1s; /* For Safari 3.1 to 6.0 */
+  transition: height 1s;
+  padding: 0 0 15px;
+  display: none;
+}
+
+#our-team .social-icons > li {
+  display: inline-block;
+}
+
+#our-team .social-icons > li > a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+  background: rgb(29, 194, 248);
+  border-radius: 3px;
+}
+
 /*!*Testimonial Area*!*/
 
 /*.testimonial-area{*/
@@ -705,24 +724,29 @@ a:focus {
 /*  -webkit-box-shadow: none;*/
 /*  box-shadow: none;*/
 /*}*/
-/*.nav.main-tab {*/
-/*  background: #eee;*/
-/*  border-bottom: 3px solid #222534;*/
-/*  border-radius: 3px 3px 0 0;*/
-/*}*/
-/*.nav.main-tab > li > a {*/
-/*  color: #272727;*/
-/*}*/
-/*.nav.main-tab > li.active > a {*/
-/*  background: #222534;*/
-/*  color: #45aed6;*/
-/*}*/
-/*.nav.main-tab > li:first-child > a {*/
-/*  border-radius: 3px 0 0 0;*/
-/*}*/
-/*.nav.main-tab > li:last-child > a {*/
-/*  border-radius: 0 3px 0 0;*/
-/*}*/
+.nav.main-tab {
+  background: #eee;
+  border-bottom: 3px solid #222534;
+  border-radius: 3px 3px 0 0;
+}
+
+.nav.main-tab > li > a {
+  color: #272727;
+}
+
+.nav.main-tab > li.active > a {
+  background: #222534;
+  color: #45aed6;
+}
+
+.nav.main-tab > li:first-child > a {
+  border-radius: 3px 0 0 0;
+}
+
+.nav.main-tab > li:last-child > a {
+  border-radius: 0 3px 0 0;
+}
+
 /*.tab-content {*/
 /*  border: 1px solid #eee;*/
 /*  border-top: 0;*/
