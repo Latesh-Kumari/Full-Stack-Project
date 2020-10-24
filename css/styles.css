@@ -752,6 +752,7 @@ a:focus {
 }
 
 /*.tab-content {*/
+/* */
 /*  border: 1px solid #eee;*/
 /*  border-top: 0;*/
 /*  padding: 20px 20px 10px;*/
@@ -946,44 +947,55 @@ a:focus {
   text-align: center;
 }
 
-/*@media only screen and (min-width: 768px) {*/
-/*  #footer .social-icons {*/
-/*    float: right;*/
-/*  }*/
-/*}*/
-/*.form-control {*/
-/*  box-shadow: none;*/
-/*  -webkit-box-shadow: none;*/
-/*}*/
-/*@media only screen and (max-width: 480px) {*/
-/*#hero-banner h2 {margin-top: 84px;*/
-/*font-size: 26px;*/
-/*line-height: 40px;!* background: rgba(255, 255, 255, 0.68); *!*/
-/*padding: 10px;}*/
-/*#hero-banner p {*/
-/*font-size: 18px;!* background: rgba(255, 255, 255, 0.68); *!*/
-/*padding: 10px;}*/
-/*#portfolio .portfolio-filter {*/
-/*list-style: none;*/
-/*padding: 0;*/
-/*margin: 0 0 12px;*/
-/*}*/
-/*#portfolio .portfolio-filter > li a {*/
-/*display: block;*/
-/*padding: 7px 15px;*/
-/*margin: 5px 2px;*/
-/*}*/
-/*	#portfolio .portfolio-item {*/
-/*	width: 48.9%;*/
-/*	padding: 8px;*/
-/*	}*/
-/*	#portfolio .portfolio-item .portfolio-item-inner .portfolio-info .preview {*/
-/*width: 28px;*/
-/*height: 24px;*/
-/*line-height: 24px; */
-/*margin: 9px auto;*/
-/*}*/
-/*#portfolio .portfolio-item .portfolio-item-inner .portfolio-info {*/
-/*padding: 7px 0 0;*/
-/*}*/
-/*}*/
+@media only screen and (min-width: 768px) {
+  #footer .social-icons {
+    float: right;
+  }
+}
+
+.form-control {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+@media only screen and (max-width: 480px) {
+  #hero-banner h2 {
+    margin-top: 84px;
+    font-size: 26px;
+    line-height: 40px; /* background: rgba(255, 255, 255, 0.68); */
+    padding: 10px;
+  }
+
+  #hero-banner p {
+    font-size: 18px; /* background: rgba(255, 255, 255, 0.68); */
+    padding: 10px;
+  }
+
+  #portfolio .portfolio-filter {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 12px;
+  }
+
+  #portfolio .portfolio-filter > li a {
+    display: block;
+    padding: 7px 15px;
+    margin: 5px 2px;
+  }
+
+  #portfolio .portfolio-item {
+    width: 48.9%;
+    padding: 8px;
+  }
+
+  #portfolio .portfolio-item .portfolio-item-inner .portfolio-info .preview {
+    width: 28px;
+    height: 24px;
+    line-height: 24px;
+    margin: 9px auto;
+  }
+
+  #portfolio .portfolio-item .portfolio-item-inner .portfolio-info {
+    padding: 7px 0 0;
+  }
+}
