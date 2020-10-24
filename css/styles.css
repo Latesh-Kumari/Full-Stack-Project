@@ -873,34 +873,43 @@ a:focus {
   color: #1DC2F8;
 }
 
-/*#contact-us {*/
-/*  padding: 100px 0 10px;*/
-/*}*/
-/*#contact-us h1,*/
-/*#contact-us h2 {*/
-/*}*/
-/*!*Contact*!*/
-/* .contact-info{*/
-/* padding:60px 0;*/
-/* }*/
-/*.contact-info address {*/
-/*margin-bottom: 20px;*/
-/*font-style: normal;*/
-/*line-height: 27px;*/
-/*font-size: 15px;*/
-/*}*/
-/*.contact-info .form-control {padding: 20px 12px;*/
-/*border-radius: 0;margin-bottom: 15px;}*/
-/* .business-stats:before {*/
-/*content: '';*/
-/*margin: 17px;*/
-/*display: block;*/
-/*border: currentcolor;*/
-/*height: 100px;*/
-/*border-radius: 50%;*/
-/*position: absolute;*/
-/*width: 100px;*/
-/*}*/
+#contact-us {
+  padding: 100px 0 10px;
+}
+
+#contact-us h1,
+#contact-us h2 {
+}
+
+/*Contact*/
+.contact-info {
+  padding: 60px 0;
+}
+
+.contact-info address {
+  margin-bottom: 20px;
+  font-style: normal;
+  line-height: 27px;
+  font-size: 15px;
+}
+
+.contact-info .form-control {
+  padding: 20px 12px;
+  border-radius: 0;
+  margin-bottom: 15px;
+}
+
+.business-stats:before {
+  content: '';
+  margin: 17px;
+  display: block;
+  border: currentcolor;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  width: 100px;
+}
+
 /*!************************/
 /********** Footer *******/
 /*************************!*/
